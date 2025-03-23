@@ -199,7 +199,7 @@ z2=linspace(0,4,1000);
 g=1000+(290*(1-exp(-z2/0.25)));
 %plot(z2,g)
 % Define the file path (replace with actual file name and your username)
-s1 = '/Users/professional_Soham/Documents/s1.csv';
+s1 = 's1.csv';
 
 % Read the CSV file using readtable (for both numeric and non-numeric data)
 data = readtable(s1);
@@ -296,7 +296,7 @@ title("Variation of Solid Temperature (Ts) along the Length of Kiln");
 hold on
 
 % Define the file path (replace with actual file name and your username)
-g2 = '/Users/professional_Soham/Documents/s2.csv';
+g2 = 's2.csv';
 
 % Read the CSV file using readtable (for both numeric and non-numeric data)
 data = readtable(g2);
